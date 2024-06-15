@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-//Używamy hook useParams który daje nam obiekt który zawiera dynamiczny segment ścieżki zdefiniowanej w korzeniu jako właściwość.
+//Dodajemy linki i tworzymy w sposób dynamiczny przejście do danej ścieżki na podstawi [] produktów.
 const PRODUCTS = [
 	{ id: 'p1', title: 'Product 1' },
 	{ id: 'p2', title: 'Product 2' },

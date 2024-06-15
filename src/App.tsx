@@ -10,15 +10,16 @@ import ProductDetail from './pages/ProductDetail';
 //https://example.com/products - to jest ścieżka
 //https://example.com/ - to też jest ścieżka
 
+//zmiana ścieżek z absolutnych na relatywne
 const router = createBrowserRouter([
 	{
 		path: '/',
 		element: <RootLayout />,
 		errorElement: <ErrorPage />,
 		children: [
-			{ path: '/', element: <Home /> }, //ścieżka dla strony głównej
-			{ path: '/products', element: <Products /> },
-			{ path: '/products/:productId', element: <ProductDetail /> },
+			{ path: '', element: <Home /> }, //ścieżka dla strony głównej
+			{ path: 'products', element: <Products /> },
+			{ path: 'products/:productId', element: <ProductDetail /> },
 		],
 	},
 ]);
