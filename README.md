@@ -28,3 +28,15 @@ export default {
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+![image](https://github.com/Kasia1781/React_Router/assets/112272108/7c95b54b-8b37-4bf1-9ea5-8c9cf38a27a3)
+
+![image](https://github.com/Kasia1781/React_Router/assets/112272108/75dddea3-0246-4ea8-9a95-d0404255ed17)
+
+![image](https://github.com/Kasia1781/React_Router/assets/112272108/1cd50b86-ac5d-4f98-aaf4-8c87f3d2be8f)
+
+
+
+
+
+
