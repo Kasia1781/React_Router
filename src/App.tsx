@@ -1,6 +1,7 @@
 import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './pages/Home';
+import Products from './pages/Products';
 
 //https://example.com - to jest domena
 //https://example.com/products - to jest ścieżka
@@ -8,7 +9,7 @@ import Home from './pages/Home';
 
 const router = createBrowserRouter([
 	{ path: '/', element: <Home /> }, //ścieżka dla strony głównej
-	{},
+	{ path: '/products', element: <Products /> },
 ]);
 
 function App() {
